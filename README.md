@@ -6,3 +6,6 @@
   For the heavy lifting in this project, I utilized R and many packages within R.  Missing values were imputed using the mice package and the dummies package was used for one-hot encoding.  Many models were tested for predicting the target variable including a random forest model from the randomForest package, naïve Bayes from the e1071 package and a k-nearest neighbors model from the class package.  
 
 Data for this project is restricted to participants of the kaggle project so it is not posted on this page but it is free to access and is found here: https://www.kaggle.com/c/home-credit-default-risk/data
+
+View the presentation, "Predicting Default Risk.ppt" for detailed results showing how the KNN model with k=1 was chosen as the best model for this data.
+  
